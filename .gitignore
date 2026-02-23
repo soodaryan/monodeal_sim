@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Test/coverage artifacts
+.coverage
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temp
+*.log
+*.tmp
+tmp/
+
+# Media/assets to exclude from git history
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svgz

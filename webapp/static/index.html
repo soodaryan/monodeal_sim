@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monodeal Rooms</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>Monodeal Online</h1>
+          <p>Room-based multiplayer using simulator rules</p>
+        </div>
+        <div id="identity" class="identity"></div>
+      </header>
+
+      <section class="card panel" id="lobbyPanel">
+        <h2>Lobby</h2>
+        <div class="lobby-row">
+          <input id="playerName" placeholder="Your name" maxlength="32" />
+          <button id="createRoomBtn" class="btn btn-primary">Create Room</button>
+        </div>
+        <div class="lobby-row">
+          <input id="roomIdInput" placeholder="Room code" maxlength="6" />
+          <button id="joinRoomBtn" class="btn">Join Room</button>
+        </div>
+        <p class="muted">Share room code with friends. Supports 2-5 players.</p>
+      </section>
+
+      <section class="grid">
+        <article class="card panel">
+          <div class="panel-title">
+            <h3>Room</h3>
+            <button id="startGameBtn" class="btn btn-primary">Start Game</button>
+          </div>
+          <div id="roomMeta" class="muted">Not connected</div>
+          <ul id="playersList" class="players"></ul>
+        </article>
+
+        <article class="card panel">
+          <h3>Turn</h3>
+          <div id="turnInfo" class="muted">Waiting for room</div>
+          <div class="turn-buttons">
+            <button id="refreshActionsBtn" class="btn">Refresh Actions</button>
+            <button id="endTurnBtn" class="btn">End Turn</button>
+          </div>
+          <div id="actionsList" class="actions"></div>
+        </article>
+      </section>
+
+      <section class="grid">
+        <article class="card panel">
+          <h3>Your Hand</h3>
+          <div id="handCards" class="chips"></div>
+        </article>
+        <article class="card panel">
+          <h3>Board</h3>
+          <div id="boardView" class="board"></div>
+        </article>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+  </html>

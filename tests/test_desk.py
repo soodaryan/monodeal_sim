@@ -1,0 +1,31 @@
+from monodeal.deck import (
+    ACTION_CARDS,
+    DECK,
+    MONEY_DECK,
+    PROPERTY_DECK,
+    PROPERTY_WILDCARDS,
+    RENT_CARDS,
+    DebtCollectorCard,
+    JustSayNoCard,
+)
+
+
+def test_deck() -> None:
+    assert len(PROPERTY_DECK) == 28
+    assert len(PROPERTY_WILDCARDS) == 11
+    assert len(MONEY_DECK) == 20
+    assert sum(c.cash for c in MONEY_DECK) == 57
+    assert len(RENT_CARDS) == 13
+    assert len(ACTION_CARDS) == 34
+    # Package says contains 110 cards, however 4 are 'reference' instructional cards
+    assert len(DECK) == 110 - 4
+
+    # trap any equals or duplicate members
+    assert len(set(DECK)) == 106
+
+
+def test_action_cash_values() -> None:
+    debt_collector = DebtCollectorCard()
+    just_say_no = JustSayNoCard()
+    assert debt_collector.cash == 3
+    assert just_say_no.cash == 4
