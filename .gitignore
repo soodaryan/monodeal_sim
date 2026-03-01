@@ -42,3 +42,5 @@ tmp/
 *.gif
 *.webp
 *.svgz
+*.svg
+cards/svg_cards

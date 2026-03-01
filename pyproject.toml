@@ -2,6 +2,9 @@
 requires = ["setuptools>=64.0", "setuptools_scm[toml]>=8"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+include = ["monodeal*", "webapp*"]
+
 [tool.setuptools_scm]
 
 [tool.ruff.lint]
@@ -16,11 +19,11 @@ authors = [
 description = "Monopoly Deal simulator"
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 dynamic = ["version"]

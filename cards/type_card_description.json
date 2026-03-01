@@ -1,0 +1,166 @@
+{
+  "game": "Monopoly Deal",
+  "edition": "2024 Edition",
+  "total_cards": 110,
+  "deck_breakdown": {
+    "rule_cards_total": 4,
+    "property_cards_total": 28,
+    "wild_property_cards_total": 11,
+    "rent_cards_total": 13,
+    "action_cards_total": 34,
+    "money_cards_total": 20
+  },
+  "cards": [
+    {
+      "category": "Setup",
+      "name": "Quick Start Rules",
+      "quantity": 4,
+      "description": "Reference cards summarizing setup and turn actions.",
+      "visual_description": "Instruction card with text-heavy layout. Not a playable property/action/money card."
+    },
+    {
+      "category": "Property",
+      "name": "Standard Color Properties",
+      "quantity": 22,
+      "money_value_range": "1M–4M",
+      "description": "Build property sets. Need 3 complete sets of different colors to win.",
+      "visual_description": "White base card with thick color strip at top indicating property color. Property name centered below strip. Rent table displayed in middle. Small property icons showing number required for full set. Money value shown in black circle at top-left corner."
+    },
+    {
+      "category": "Property",
+      "name": "Railroads",
+      "quantity": 4,
+      "money_value": "2M",
+      "description": "Collect all 4 to complete the set.",
+      "visual_description": "White base card with black header strip. Train icon. Rent scale increases from 1 to 4 railroads. Money value in top-left circle."
+    },
+    {
+      "category": "Property",
+      "name": "Utilities",
+      "quantity": 2,
+      "money_value": "2M",
+      "description": "2 cards complete the utility set.",
+      "visual_description": "White base card with utility name centered. Minimal rent scale (1 or complete set). Utility icon such as lightning/water symbol. Money value in top-left circle."
+    },
+    {
+      "category": "Wild Property",
+      "name": "Dual-Color Wild",
+      "quantity": 9,
+      "money_value_range": "2M–4M",
+      "description": "Can switch between two specified colors during your turn.",
+      "visual_description": "White card with split or dual-color header strip at top. 'Wild Property' text displayed. Arrow or color indicators showing flexibility. Money value in top-left circle."
+    },
+    {
+      "category": "Wild Property",
+      "name": "Multi-Color Wild (Rainbow)",
+      "quantity": 2,
+      "money_value": "0M",
+      "description": "Can represent any property color.",
+      "visual_description": "White card with rainbow-style header strip. 'Wild Property' text. Usually no money value or marked 0M."
+    },
+    {
+      "category": "Action",
+      "name": "Rent (Color-Specific)",
+      "quantity": 10,
+      "money_value": "1M",
+      "description": "Charge rent for specific listed colors.",
+      "visual_description": "Bright colored background (often dual-color). 'ACTION' header band at top. Large 'RENT' text in center. Property icons displayed. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Wild Rent",
+      "quantity": 3,
+      "money_value": "3M",
+      "description": "Charge rent for any color set you own.",
+      "visual_description": "Rainbow-themed background. 'Wild Rent' text prominently displayed. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Double The Rent",
+      "quantity": 2,
+      "money_value": "1M",
+      "description": "Doubles the rent charged (can stack). Must be played with a Rent card.",
+      "visual_description": "Blue background card with 'Double The Rent' text and large 'x2' graphic. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Pass Go",
+      "quantity": 10,
+      "money_value": "1M",
+      "description": "Draw 2 extra cards.",
+      "visual_description": "Green background with 'Pass Go' bold text and draw-card icon. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Deal Breaker",
+      "quantity": 2,
+      "money_value": "5M",
+      "description": "Steal one complete property set from another player.",
+      "visual_description": "Red background with bold 'Deal Breaker' text. Graphic suggesting stealing or grabbing cards. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Sly Deal",
+      "quantity": 3,
+      "money_value": "3M",
+      "description": "Steal one property card (cannot take from a complete set).",
+      "visual_description": "Light blue background with cartoon thief-style graphic. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Forced Deal",
+      "quantity": 3,
+      "money_value": "3M",
+      "description": "Swap one property card with another player.",
+      "visual_description": "Yellow background with arrow swap graphics. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Just Say No",
+      "quantity": 3,
+      "money_value": "4M",
+      "description": "Cancel any action played against you (can cancel another Just Say No).",
+      "visual_description": "Purple background with large 'NO' text. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "Debt Collector",
+      "quantity": 3,
+      "money_value": "3M",
+      "description": "Choose one player to pay you 5M.",
+      "visual_description": "Orange background with money icon graphic. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action",
+      "name": "It's My Birthday",
+      "quantity": 3,
+      "money_value": "2M",
+      "description": "All players must pay you 2M.",
+      "visual_description": "Pink background with birthday cake icon. ACTION header band. Money value in top-left circle."
+    },
+    {
+      "category": "Action / Building",
+      "name": "House",
+      "quantity": 3,
+      "money_value": "3M",
+      "description": "Add to a complete property set to increase rent by +3M.",
+      "visual_description": "Green card labeled 'HOUSE' with red house icon. Must be placed on full set. Money value in top-left circle."
+    },
+    {
+      "category": "Action / Building",
+      "name": "Hotel",
+      "quantity": 2,
+      "money_value": "4M",
+      "description": "Add on top of a house to increase rent by +4M.",
+      "visual_description": "Light green card labeled 'HOTEL' with red hotel building icon. Requires house first. Money value in top-left circle."
+    },
+    {
+      "category": "Money",
+      "name": "Money Cards",
+      "quantity": 20,
+      "money_value_range": "1M–10M",
+      "description": "Used to pay debts and can be banked. Values include 1, 2, 3, 4, 5, and 10.",
+      "visual_description": "Bright value-colored cards with large numeric denomination and Monopoly Deal branding."
+    }
+  ]
+}

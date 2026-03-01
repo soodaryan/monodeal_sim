@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "game": "Monopoly Deal",
+    "total_cards": 110
+  },
+  "cards": [
+
+    {
+      "type": "rule",
+      "name": "Quick Start Rule",
+      "count": 4
+    },
+
+    {
+      "type": "property_group",
+      "color": "brown",
+      "set_size": 2,
+      "rent": [1,2],
+      "bank_value": 1,
+      "cards": [
+        {"id": "brown_1", "name": "Mediterranean Avenue"},
+        {"id": "brown_2", "name": "Baltic Avenue"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "light_blue",
+      "set_size": 3,
+      "rent": [1,2,3],
+      "bank_value": 1,
+      "cards": [
+        {"id": "lb_1", "name": "Oriental Avenue"},
+        {"id": "lb_2", "name": "Vermont Avenue"},
+        {"id": "lb_3", "name": "Connecticut Avenue"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "pink",
+      "set_size": 3,
+      "rent": [1,2,4],
+      "bank_value": 2,
+      "cards": [
+        {"id": "pink_1", "name": "St. Charles Place"},
+        {"id": "pink_2", "name": "States Avenue"},
+        {"id": "pink_3", "name": "Virginia Avenue"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "orange",
+      "set_size": 3,
+      "rent": [1,3,5],
+      "bank_value": 2,
+      "cards": [
+        {"id": "orange_1", "name": "St. James Place"},
+        {"id": "orange_2", "name": "Tennessee Avenue"},
+        {"id": "orange_3", "name": "New York Avenue"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "red",
+      "set_size": 3,
+      "rent": [2,3,6],
+      "bank_value": 3,
+      "cards": [
+        {"id": "red_1", "name": "Kentucky Avenue"},
+        {"id": "red_2", "name": "Indiana Avenue"},
+        {"id": "red_3", "name": "Illinois Avenue"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "yellow",
+      "set_size": 3,
+      "rent": [2,4,6],
+      "bank_value": 3,
+      "cards": [
+        {"id": "yellow_1", "name": "Atlantic Avenue"},
+        {"id": "yellow_2", "name": "Ventnor Avenue"},
+        {"id": "yellow_3", "name": "Marvin Gardens"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "green",
+      "set_size": 3,
+      "rent": [2,4,7],
+      "bank_value": 4,
+      "cards": [
+        {"id": "green_1", "name": "Pacific Avenue"},
+        {"id": "green_2", "name": "North Carolina Avenue"},
+        {"id": "green_3", "name": "Pennsylvania Avenue"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "dark_blue",
+      "set_size": 2,
+      "rent": [3,8],
+      "bank_value": 4,
+      "cards": [
+        {"id": "db_1", "name": "Park Place"},
+        {"id": "db_2", "name": "Boardwalk"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "railroad",
+      "set_size": 4,
+      "rent": [1,2,3,4],
+      "bank_value": 2,
+      "cards": [
+        {"id": "rr_1", "name": "Reading Railroad"},
+        {"id": "rr_2", "name": "Pennsylvania Railroad"},
+        {"id": "rr_3", "name": "B&O Railroad"},
+        {"id": "rr_4", "name": "Short Line"}
+      ]
+    },
+
+    {
+      "type": "property_group",
+      "color": "utility",
+      "set_size": 2,
+      "rent": [1,2],
+      "bank_value": 2,
+      "cards": [
+        {"id": "util_1", "name": "Electric Company"},
+        {"id": "util_2", "name": "Water Works"}
+      ]
+    },
+
+    {
+      "type": "wild",
+      "name": "Brown / Light Blue",
+      "colors": ["brown","light_blue"],
+      "bank_value": 1,
+      "count": 1
+    },
+    {
+      "type": "wild",
+      "name": "Light Blue / Railroad",
+      "colors": ["light_blue","railroad"],
+      "bank_value": 4,
+      "count": 1
+    },
+    {
+      "type": "wild",
+      "name": "Pink / Orange",
+      "colors": ["pink","orange"],
+      "bank_value": 2,
+      "count": 2
+    },
+    {
+      "type": "wild",
+      "name": "Red / Yellow",
+      "colors": ["red","yellow"],
+      "bank_value": 3,
+      "count": 2
+    },
+    {
+      "type": "wild",
+      "name": "Dark Blue / Green",
+      "colors": ["dark_blue","green"],
+      "bank_value": 4,
+      "count": 1
+    },
+    {
+      "type": "wild",
+      "name": "Green / Railroad",
+      "colors": ["green","railroad"],
+      "bank_value": 4,
+      "count": 1
+    },
+    {
+      "type": "wild",
+      "name": "Railroad / Utility",
+      "colors": ["railroad","utility"],
+      "bank_value": 2,
+      "count": 1
+    },
+    {
+      "type": "wild",
+      "name": "Multicolor",
+      "colors": ["any"],
+      "bank_value": 0,
+      "count": 2
+    },
+
+    {
+      "type": "rent",
+      "colors": ["brown","light_blue"],
+      "bank_value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "colors": ["pink","orange"],
+      "bank_value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "colors": ["red","yellow"],
+      "bank_value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "colors": ["green","dark_blue"],
+      "bank_value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "colors": ["railroad","utility"],
+      "bank_value": 1,
+      "count": 2
+    },
+    {
+      "type": "rent",
+      "colors": ["any"],
+      "bank_value": 3,
+      "count": 3
+    },
+
+    {"type":"action","name":"Deal Breaker","text":"Steal a complete set of properties from any player.","bank_value":5,"count":2},
+    {"type":"action","name":"Sly Deal","text":"Steal a property from any player. Cannot be part of a complete set.","bank_value":3,"count":3},
+    {"type":"action","name":"Forced Deal","text":"Swap a property with any player. Cannot be part of a complete set.","bank_value":3,"count":3},
+    {"type":"action","name":"Debt Collector","text":"Force any player to pay you 5M.","bank_value":3,"count":3},
+    {"type":"action","name":"It's My Birthday","text":"Every player must give you 2M.","bank_value":2,"count":3},
+    {"type":"action","name":"Pass Go","text":"Draw 2 extra cards.","bank_value":1,"count":10},
+    {"type":"action","name":"Double The Rent","text":"Double the rent of a Rent card.","bank_value":1,"count":2},
+    {"type":"action","name":"Just Say No","text":"Cancel an action card played against you.","bank_value":4,"count":3},
+    {"type":"action","name":"House","text":"Add to a complete property set to increase rent.","bank_value":3,"count":3},
+    {"type":"action","name":"Hotel","text":"Add to a complete set with a House to increase rent.","bank_value":4,"count":2},
+
+
+    {"type":"money","value":1,"count":6},
+    {"type":"money","value":2,"count":5},
+    {"type":"money","value":3,"count":3},
+    {"type":"money","value":4,"count":3},
+    {"type":"money","value":5,"count":2},
+    {"type":"money","value":10,"count":1}
+
+  ]
+}
